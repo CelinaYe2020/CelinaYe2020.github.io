@@ -1,0 +1,180 @@
+#Homepage .jumbotron {
+    background-image: url(../img/book-notebook-blue-stool.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    height:500px;
+    margin-bottom: 0;
+  }
+
+#Homepage .Name_info h1{
+  font-size: 2.85rem;
+  font-family: Lucida Bright;
+}
+
+#Homepage .Name_info h2{
+  font-family: Monotype Corsiva;
+  font-size: 3rem;
+}
+
+#Homepage .Name_info h4{
+  font-family: Monotype Corsiva;
+  font-size: 1.5rem;
+}
+
+#Homepage .Name_info p{
+  margin-top: 40px;
+}
+
+#Home .intro {
+  background-color: #F0F8FF;
+  margin-bottom: 20px;
+}
+
+#Home .intro h3 {
+  padding-top:30px;
+  padding-left: 45px;
+  font-family: Monotype Corsiva;
+  font-size: 3rem;
+}
+
+#Home .intro p {
+  margin:30px 30px 0px 30px;
+  padding-left:102px;
+  padding-right:102px;
+  padding-bottom:50px;
+}
+
+#Gallery .jumbotron{
+  position: relative;
+  background-image: none;
+}
+
+#Gallery .jumbotron img{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  object-position: 0 30%;
+  opacity:0.5;
+}
+
+#Gallery .jumbotron .container{
+  position: relative;
+}
+
+#Gallery .carousel-caption{
+  background: rgba(0,0,0,0.5);
+}
+
+#Gallery .carousel-item {
+  width:667px;
+}
+
+#Gallery .Head{
+  font-family: Malgun Gothic Semilight;
+  margin-bottom: 23px;
+  padding-left: 74px;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+#Gallery video{
+  margin-left: 77px;
+  margin-bottom: 31px;
+}
+
+#Resume .container{
+  padding: 20px 10px;
+  position: relative;
+}
+
+#Resume .containerL{
+  float: left;
+  padding: 32px 40px 40px;
+}
+
+#Resume .containerL img{
+  width: 205px;
+  border-radius: 85px;
+  overflow: hidden;
+  margin:22px 0 35px 0;
+}
+
+#Resume .containerL h2{
+  font-family:Bell MT;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+#Resume h3{
+  font-size: 2.5rem;
+  padding-top:20px;
+  border-bottom-style: solid;
+  border-width: thin;
+}
+
+#Resume h4{
+  font-size: 1.0rem;
+}
+
+#Resume h6{
+  padding-top: 10px;
+}
+
+#Resume .progress {
+  height: 70%;
+}
+
+#Resume .progress-bar[aria-valuenow="75"]{
+  background-color: #87CEFA;
+  width: 75%;
+}
+#Resume .progress-bar[aria-valuenow="65"]{
+  background-color: #4169E1;
+  width: 65%;
+}
+#Resume .progress-bar[aria-valuenow="35"]{
+  background-color: #48D1CC;
+  width: 35%;
+}
+
+#contact .jumbotron {
+    background-image: url(../img/book-notebook-blue-stool.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    height:300px;
+    margin-bottom: 2rem;
+  }
+
+#contact .jumbotron h1{
+  font-size: 2.85rem;
+  font-family: Lucida Bright;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+#contact .jumbotron p{
+  margin-left: 3rem;
+}
+
+#contact img{
+  margin-right: 30px;
+}
+
+#contact h5{
+  font-family: Gabriola;
+  font-size: 3rem;
+}
+
+
+
+#footer{
+  	background:#f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
